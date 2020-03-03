@@ -25,7 +25,7 @@ public class UserRepositoryTests {
 		Assert.assertEquals(9, userRepository.findAll().size());
 
 		Assert.assertEquals("aa", userRepository.findByUserName("aa").getUserName());
-
+//123131
 		/*Assert.assertEquals(60, userRepository.findUser("FFF").getAge().longValue());
 
 		Assert.assertEquals("FFF", userRepository.findByNameAndAge("FFF", 60).getName());
