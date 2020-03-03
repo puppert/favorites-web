@@ -48,7 +48,7 @@ public class RepositoryTest {
 	public void testFollow() throws Exception {
 		List<Long> userIds=followRepository.findMyFollowIdByUserId(1l);
 		for(Long userId:userIds){
-			System.out.println("userId===="+userId);
+			System.out.println("userId========"+userId);
 		}
 	    
 	}
